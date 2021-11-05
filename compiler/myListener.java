@@ -61,4 +61,61 @@ public class myListener extends KnightCodeBaseListener {
 		        
 		       	System.out.println("Done!");
 	}// end of closeClass
+	
+	@Override
+	public void enterFile(KnightCodeParser.FileContext ctx){
+
+		System.out.println("Enter program rule for first time");
+		setupClass();
+		
+	}// end of enterFile
+	
+	@Override
+	public void exitFile(KnightCodeParser.FileContext ctx){
+
+		System.out.println("Leaving program rule. . .");
+		closeClass();
+
+	}// end of exitFile
+	
+	@Override 
+	public void enterDeclare(KnightCodeParser.DeclareContext ctx){
+		
+	}// end of enterDeclare
+	@Override 
+	public void exitDeclare(KnightCodeParser.DeclareContext ctx){
+		
+	}// end of exitDeclare
+
+	public void enterVariable(KnightCodeParser.VariableContext ctx){
+		
+		
+	}// end of enterVariable
+	@Override 
+	public void exitVariable(KnightCodeParser.VariableContext ctx){ 
+	
+		
+	}// end of exitVariable
+	
+	public void enterIdentifier(KnightCodeParser.IdentifierContext ctx){
+		
+	}// end of enterIdentifier
+	
+	@Override 
+	public void exitIdentifier(KnightCodeParser.IdentifierContext ctx){ 
+	
+	}// end of exitIdentifier
+	
+	@Override 
+	public void enterBody(KnightCodeParser.BodyContext ctx){ 
+	
+		
+	}// end of enterBody
+	@Override 
+	public void exitBody(KnightCodeParser.BodyContext ctx){ 
+	
+		
+	}// end of exitBody
+	
+	
 }// end of myListener
