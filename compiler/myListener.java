@@ -60,5 +60,5 @@ public class myListener extends KnightCodeBaseListener {
 		        Utilities.writeFile(b,"output/"+this.programName+".class");
 		        
 		       	System.out.println("Done!");
-	}// end fo closeClass
+	}// end of closeClass
 }// end of myListener
