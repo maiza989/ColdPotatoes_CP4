@@ -60,6 +60,7 @@ public class myListener extends KnightCodeBaseListener {
 		        Utilities.writeFile(b,"output/"+this.programName+".class");
 		        
 		       	System.out.println("Done!");
+		       	
 	}// end of closeClass
 	
 	@Override
@@ -81,40 +82,47 @@ public class myListener extends KnightCodeBaseListener {
 	@Override 
 	public void enterDeclare(KnightCodeParser.DeclareContext ctx){
 		
+		System.out.println("Enter Declare!");
+
 	}// end of enterDeclare
 	@Override 
 	public void exitDeclare(KnightCodeParser.DeclareContext ctx){
 		
+		System.out.println("Leaving Declare . . .");
 	}// end of exitDeclare
 
 	public void enterVariable(KnightCodeParser.VariableContext ctx){
 		
+		System.out.println("Enter Variable!");
 		
 	}// end of enterVariable
 	@Override 
 	public void exitVariable(KnightCodeParser.VariableContext ctx){ 
 	
-		
+		System.out.println("Leaving Variable . . .");
 	}// end of exitVariable
 	
 	public void enterIdentifier(KnightCodeParser.IdentifierContext ctx){
 		
+		System.out.println("Enter Identifier!");
 	}// end of enterIdentifier
 	
 	@Override 
 	public void exitIdentifier(KnightCodeParser.IdentifierContext ctx){ 
 	
+		System.out.println("Leaving Identifier . . .");
+		
 	}// end of exitIdentifier
 	
 	@Override 
 	public void enterBody(KnightCodeParser.BodyContext ctx){ 
-	
 		
+		System.out.println("Enter Body!");
 	}// end of enterBody
 	@Override 
 	public void exitBody(KnightCodeParser.BodyContext ctx){ 
-	
 		
+		System.out.println("Leaving Body . . .");
 	}// end of exitBody
 	
 	

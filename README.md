@@ -40,3 +40,5 @@ Date | Team Member(s) | Summary of Work session | Hours
 11/04/21 - Maitham - Added enteries and exits for listener after trying to figure how to force the output from antlr to a folder - 1.5-2 hours
 
 11/04/21 - Maitham - Edited README.md file - 30 minutes 
+
+11/06/21 - Maitham - Worked on adding entires and exiting notifications - 20 minutes  
