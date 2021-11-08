@@ -42,3 +42,5 @@ Date | Team Member(s) | Summary of Work session | Hours
 11/04/21 - Maitham - Edited README.md file - 30 minutes 
 
 11/06/21 - Maitham - Worked on adding entires and exiting notifications - 20 minutes  
+
+11/08/21 - Maitham - Worked on figuring out the symbol table/hashmap,but no look - 2 hours
