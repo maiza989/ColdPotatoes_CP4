@@ -1,5 +1,6 @@
 /**
- * A class that start knightcode to compile and parce through myListener.
+ * A class that gather hashmap symbol table to store data the listener need to use along with ANTLR classes to 
+ * build a compiler with the use of lexers and parser ANTLR generates.  
  * @author Maitham Alghamgham, Bobby Gebriel 
  * @version 1.0
  * Project 4
@@ -17,8 +18,9 @@ import org.objectweb.asm.*;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.objectweb.asm.Label;
 import static org.objectweb.asm.Opcodes.*;
-import java.util.*: 
-	
+import java.util.*;
+
+
 
 public class myListener extends KnightCodeBaseListener {
 

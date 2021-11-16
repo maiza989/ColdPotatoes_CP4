@@ -48,3 +48,5 @@ Date | Team Member(s) | Summary of Work session | Hours
 11/15/21 - Maitham - Worked on the kcc file that kicks of the compiler. Also added some comments - 3 hours
 
 11/15/21 - Maitham - Adding some extra test for the compiler ( hope they work ) - 1 hour 
+
+11/15/21 - Maitham - fixed some missplaces commnets - 10 minutes
