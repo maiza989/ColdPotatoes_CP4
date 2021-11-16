@@ -44,3 +44,5 @@ Date | Team Member(s) | Summary of Work session | Hours
 11/06/21 - Maitham - Worked on adding entires and exiting notifications - 20 minutes  
 
 11/08/21 - Maitham - Worked on figuring out the symbol table/hashmap,but no look - 2 hours
+
+11/15/21 - Maitham - Worked on the kcc file that kicks of the compiler. Also added some comments - 3 hours
