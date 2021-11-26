@@ -50,3 +50,5 @@ Date | Team Member(s) | Summary of Work session | Hours
 11/15/21 - Maitham - Adding some extra test for the compiler ( hope they work ) - 1 hour 
 
 11/15/21 - Maitham - fixed some missplaces commnets - 10 minutes
+
+26/15/21 - Maitham - Worked on implementing entires and exitst - 3 hours  

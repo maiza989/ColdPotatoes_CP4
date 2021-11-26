@@ -70,7 +70,6 @@ public class kcc {
 	             */
 	            ParseTree tree = parser.file(); 
 	            
-	            
 	            /**
 	             * Walk the tree using the myListener class
 	             */
