@@ -18,7 +18,7 @@ Date | Team Member(s) | Summary of Work session | Hours
     
    	11/28/21 - Bobby - began to push most of work to github and properly comment everything - 1.5 hours
     
-    	11/29/21 - Bobby - went through all of myListener that Maitham and I worked on and make sure to fix any formatting issues along with proper commenting - 2 	   hours
+    	11/29/21 - Bobby - went through all of myListener that Maitham and I worked on and make sure to fix any formatting issues along with proper commenting - 2 hours
     
 
 		
