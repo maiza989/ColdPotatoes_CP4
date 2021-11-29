@@ -1,4 +1,4 @@
-package knightcodecompiler;
+package compiler;
 /**
  * This class encapsulates a basic grammar test.
  */

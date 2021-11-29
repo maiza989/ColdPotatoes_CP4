@@ -1,0 +1,17 @@
+PROGRAM kinghttest3
+
+DECLARE
+	INTEGER number
+	INTEGER reps
+
+BEGIN
+	PRINT "Enter your number: "
+	READ number
+	PRINT "Enter repetitions: "
+	READ reps
+	WHILE reps> 0 DO
+		PRINT number
+		SET number := number / 2
+		SET reps := reps - 1
+	ENDWHILE
+END

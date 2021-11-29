@@ -1,0 +1,12 @@
+PROGRAM knighttest4
+
+DECLARE
+		INTEGER number
+
+BEGIN
+		PRINT "Enter a number: "
+		READ number
+		IF number = 1 THEN PRINT "Correct <3"
+		ELSE PRINT ">:( Thats wrong loser!"
+		ENDIF
+END

@@ -1,0 +1,16 @@
+PROGRAM knighttest2
+
+DECLARE
+		STRING person 
+		INTEGER w
+		
+BEGIN
+		PRINT "Enter your legal name: "
+		READ person	
+		PRINT "Enter your location as a whole number: "
+		READ w
+		IF  w = 4 THEN PRINT " YOU ARE BEING HACKED!"
+		ELSE PRINT "You are fine"
+		ENDIF
+END 
+	

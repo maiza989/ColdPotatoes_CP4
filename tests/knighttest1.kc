@@ -1,0 +1,16 @@
+
+PROGRAM knighttest1
+
+DECLARE
+	INTEGER f 
+	INTEGER d
+	INTEGER c
+
+BEGIN
+	PRINT "Enter first number: "
+	READ f
+	PRINT "Enter second number: "
+	READ d
+	SET c := f * d
+	PRINT c
+END
