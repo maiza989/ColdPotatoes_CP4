@@ -1,17 +1,20 @@
 package knightcodecompiler;
 /**
  * This class encapsulates a basic grammar test.
+ * @author Bobby Gabriel
+ * @version 1.0
+ * Programming Project 4
+ * CS322 - Compiler Construction
+ * Fall 2021
  */
 
+//Exception and Antlr packages
 import java.io.IOException;
-//ANTLR packages
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.tree.*;
 import org.antlr.v4.gui.Trees;
-
-import lexparse.*;
 
 public class CompilerTest{
 
@@ -28,22 +31,21 @@ public class CompilerTest{
             tokens = new CommonTokenStream(lexer); //create the token stream
             parser = new KnightCodeParser(tokens); //create the parser
        
-            ParseTree tree = parser.file();  //set the start location of the parser
+            ParseTree tree = parser.file();//set the start location of the parser
              
             
             Trees.inspect(tree, parser);
             
-            //System.out.println(tree.toStringTree(parser));
         
-        }
+        }//end try
         catch(IOException e){
             System.out.println(e.getMessage());
-        }
+        }//end catch
 
 
-    }
+    }//end main
 
 
 
 
-}//end class
+}//end CompilerTest
