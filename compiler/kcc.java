@@ -3,7 +3,7 @@ package compiler;
  * Description
  * @author Bobby Gabriel 
  * @version 1.0
- * Project 4
+ * Programming Project 4
  * CS322 - Compiler Construction 
  * Fall 2021
  */
@@ -30,9 +30,9 @@ public class kcc {
 	    String file;
 	    String output;
 		
-		/**
-		 * An if else statment that pass the knightcode file to the output folder for result files.
-		 */
+		
+		//An if else statment that pass the knightcode file to the output folder for result files.
+		 
 		if(args.length == 2){
 		
 			file = args[0];
@@ -48,7 +48,7 @@ public class kcc {
 			file = "tests/program1.kc";
 			output = "output/result";
 		
-		}//end if else statement
+		}//end if/else 
 		
 		
 		 //takes input from the user and then compiles it using myListener class
