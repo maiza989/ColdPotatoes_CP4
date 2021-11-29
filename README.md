@@ -1,11 +1,20 @@
 
-This project encapsulates the directory structure required for the final project in CS322. Additionally, it contains an ant build.xml file you can use to buid/compile/clean your project if you wish. Refer to the build.xml file for the build/clean targets.
+This project encapsulates the directory structure required for the final project in CS322. 
+
+Additionally, it contains an ant build.xml file you can use to buid/compile/clean your project if you wish. 
+
+The goal of this project is to use ANTLR to create lexers and parsers for our language grammer "KnightCode". Using ANTLR building the parse tree, we implemented a Listenr method to translate/walk. This project also use ASM to do all the calcualtion
 
 # ColdPotatoes_CP4
 The program was crated by Maitham Alghamgham, Bobby Gabriel.
 
+### Building BaseListener 
+
+	 antlr4 KnightCode.g4 -o lexparse
 
 ### how to Comile the Comiler with ANT:
+Refer to the build.xml file for the build/clean targets.
+
 Assuming that you imported build.xml, knightcode.g4 and everything 
 
 	 This script will enable you to convert a program from KnightCode to Java Source Code.
@@ -33,22 +42,26 @@ Here is an example of a successful program;
 
 Date | Team Member(s) | Summary of Work session | Hours
 
-11/04/21 - Maitham - Creating the repository and adding the knightcode skeleton
+		11/04/21 - Maitham - Creating the repository and adding the knightcode skeleton
 
-11/04/21 - Maitham - Adding myListener class and setting up ASM class opening and closing methods - 2 hours
+		11/04/21 - Maitham - Adding myListener class and setting up ASM class opening and closing methods - 2 hours
 
-11/04/21 - Maitham - Added enteries and exits for listener after trying to figure how to force the output from antlr to a folder - 1.5-2 hours
+		11/04/21 - Maitham - Added enteries and exits for listener after trying to figure how to force the output from antlr to a folder - 1.5-2 hours
 
-11/04/21 - Maitham - Edited README.md file - 30 minutes 
+		11/04/21 - Maitham - Edited README.md file - 30 minutes 
 
-11/06/21 - Maitham - Worked on adding entires and exiting notifications - 20 minutes  
+		11/06/21 - Maitham - Worked on adding entires and exiting notifications - 20 minutes  
 
-11/08/21 - Maitham - Worked on figuring out the symbol table/hashmap,but no look - 2 hours
+		11/08/21 - Maitham - Worked on figuring out the symbol table/hashmap,but no look - 2 hours
 
-11/15/21 - Maitham - Worked on the kcc file that kicks of the compiler. Also added some comments - 3 hours
+		11/15/21 - Maitham - Worked on the kcc file that kicks of the compiler. Also added some comments - 3 hours
 
-11/15/21 - Maitham - Adding some extra test for the compiler ( hope they work ) - 1 hour 
+		11/15/21 - Maitham - Adding some extra test for the compiler ( hope they work ) - 1 hour 
 
-11/15/21 - Maitham - fixed some missplaces commnets - 10 minutes
+		11/15/21 - Maitham - fixed some missplaces commnets - 10 minutes
 
-26/15/21 - Maitham - Worked on implementing entires and exitst - 3 hours  
+		11/26/21 - Maitham - Worked on implementing entires and exitst - 3 hours  
+
+		11/28/21 | Maitham | Added the functionalty for print,read,loop,decision,addition, subtraction,multipcation, division, comparison. added comments as well to most of the stuff. | 8 hours marathon
+		
+		11/28/21 | Maitham | Eidited README file | 15 minutes
