@@ -65,3 +65,5 @@ Date | Team Member(s) | Summary of Work session | Hours
 		11/28/21 | Maitham | Added the functionalty for print,read,loop,decision,addition, subtraction,multipcation, division, comparison. added comments as well to most of the stuff. | 8 hours marathon
 		
 		11/28/21 | Maitham | Eidited README file | 15 minutes
+		
+		11/30/21 | Maitham Added Bobby's test samples| 5 min
