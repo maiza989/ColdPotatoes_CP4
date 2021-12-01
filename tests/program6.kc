@@ -1,0 +1,14 @@
+PROGRAM Program6
+
+DECLARE
+	INTEGER a
+	
+
+BEGIN
+	PRINT "Enter a number: "
+	READ a
+	IF a > 5 THEN PRINT "Your number is greater than 5"
+	ELSE PRINT "Your number is less than 5"
+	ENDIF
+	Print
+END

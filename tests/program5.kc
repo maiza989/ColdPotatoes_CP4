@@ -1,0 +1,15 @@
+PROGRAM Program5
+
+DECLARE
+	INTEGER x
+	INTEGER y
+	INTEGER z
+
+BEGIN
+	PRINT "Enter a number: "
+	READ x
+	PRINT "Enter a number: "
+	READ y
+	SET z := x + y
+	PRINT z
+END

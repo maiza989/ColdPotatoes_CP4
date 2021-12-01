@@ -1,0 +1,10 @@
+PROGRAM Program7
+
+DECLARE
+	String birthmonth
+
+BEGIN
+	PRINT "Enter your birthmonth: "
+	READ birthmonth
+	PRINT "That's a terrible birthmonth"
+END
