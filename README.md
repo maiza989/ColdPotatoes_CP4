@@ -66,6 +66,7 @@ Date | Team Member(s) | Summary of Work session | Hours
 		
 		11/28/21 | Maitham | Eidited README file | 15 minutes
 		
+		11/30/21 | Maitham Added Bobby's test samples| 5 min
 		
 		11/08/21 - Bobby - forked repository and created my own branch on Maitham's repository
 

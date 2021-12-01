@@ -1,0 +1,22 @@
+PROGRAM Program8
+
+DECLARE
+	INTEGER x
+	INTEGER y
+	INTEGER z
+	INTEGER d
+	INTEGER n
+
+BEGIN
+	PRINT "Enter a multiple of 10 to multiply: "
+	READ x
+	PRINT "Enter a second multiple of 10 to multiply: "
+	READ y
+	PRINT "The two numbers multiplied is: "
+	SET z := x + y
+	PRINT z
+	PRINT "That number divided by 10 is: "
+	SET n := 10
+	SET d := z/n
+	PRINT d
+END
